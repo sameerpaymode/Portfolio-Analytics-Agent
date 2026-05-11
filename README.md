@@ -39,10 +39,10 @@ This launches an interactive web interface where users can directly ask portfoli
 
 #### 5. Example Questions
 
-* “How many portfolios do we have?”
-* “Show sector exposure for portfolio 101”
-* “Which sector has the highest allocation?”
-* “List all equity holdings in Growth Portfolio”
+* “How many portfolios do we have in total?”
+* “What are the names of all active portfolios?”
+* “Which securities are in the Technology sector?”
+* “What are the sector exposures for the Tech Innovation Fund?”
 
 #### 6. Run Evaluation Script
 
