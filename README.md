@@ -15,7 +15,10 @@ pip install -r requirements.txt
 Create a `.env` file and add your API key:
 
 ```env
-GEMINI_API_KEY=your_api_key_here
+GEMINI_API_KEY = your_api_key_here
+GEMINI_MODEL =  model name here
+
+GROQ_API_KEY =  your_api_key_here
 ```
 
 #### 3. Run the FastAPI Backend
@@ -49,10 +52,4 @@ python evaluator.py
 
 This validates the agent’s responses against the provided ground truth dataset to measure accuracy and functionality.
 
-### .env schema
-`
-GEMINI_API_KEY = 
-GEMINI_MODEL =  
 
-GROQ_API_KEY = 
-`
